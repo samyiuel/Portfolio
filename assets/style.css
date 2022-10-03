@@ -1,0 +1,81 @@
+:root{
+    --text: #CCC;
+    --background: #151515;
+}
+
+body, html, .navbar, .navbar-dark, .progress {
+    background-color: var(--background) !important;
+}
+
+.responsive-image{
+    height: 300px;
+    display: block;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.fade-text{
+    opacity: 0.4;
+    font-size: 1rem;
+}
+
+.carousel-item *{
+    color: var(--text) !important;
+}
+
+.container{
+    background-color: #151515;
+}
+
+.card, .card-body, .card-group *{
+    background-color: var(--background);
+    color: var(--text);
+    border: none !important;
+}
+
+.card-group{
+    gap: 20px;
+}
+
+.card img{
+    border-radius: 0 !important;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3a3a3a;
+}
+
+.section-title{
+    text-align: center;
+    color: var(--text);
+    margin: 60px 0;
+}
+
+.progress-group{
+    display: grid;
+    gap: 20px;
+}
+
+.progress span{
+    color: var(--text);
+    width: 100px;
+}
+
+p{
+    color: var(--text);
+    opacity: 0.7;
+}
+
+footer{
+    margin-top: 200px;
+    color: var(--text);
+    opacity: 0.7;
+}
