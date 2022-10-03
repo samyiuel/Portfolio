@@ -1,1 +1,5 @@
-# My first portfolio
+to run the project enter the follow command on terminal:
+
+``
+open index.html
+``
